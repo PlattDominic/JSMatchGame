@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Match Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+        body,
+        html 
+        {
+            height: 100%;
+            background-color: #6CB4EE;
+        }
+        img 
+        {
+            width: 8rem;
+            padding: 2px;
+        }
+        
+        #start-btn 
+        {
+            width: 10vw;
+            height: 4vh;
+            background-color: #6667AB;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+     <!-- Div that will contain all main page contents -->
+     <div class="col-4 mx-auto p-3">
+        <!-- Main page header text -->
+        <h1 class="text-center text-white fw-bold mt-3">Match The Cards</h1>
+
+        <h3 class="text-center text-white fw-bold mt-3">Tries: 8</h3>
+
+        <div class="text-center mt-5">
+            <button id="start-btn" class="btn text-center" onclick="StartGame()">Start Game</button>
+        </div>
+
+        <!-- Div that will contain all the match card for games -->
+        <div id="card-images" class="text-center mt-4">
+            <img id="0" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="1" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="2" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="3" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="4" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="5" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="6" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="7" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="8" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="9" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="10" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="11" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="12" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="13" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="14" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="15" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+        </div>
+
+    </div>
+</body>
+</html>
