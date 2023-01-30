@@ -40,7 +40,7 @@
         <!-- Main page header text -->
         <h1 class="text-center text-white fw-bold mt-3">Match The Cards</h1>
 
-        <h3 class="text-center text-white fw-bold mt-3">Tries: 8</h3>
+        <h3 id="tries-counter" class="text-center text-white fw-bold mt-3">Tries: 0</h3>
 
         <div class="text-center mt-5">
             <button id="start-btn" class="btn text-center" onclick="StartGame()">Start Game</button>
@@ -48,23 +48,25 @@
 
         <!-- Div that will contain all the match card for games -->
         <div id="card-images" class="text-center mt-4">
-            <img id="0" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="1" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="2" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="3" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="4" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="5" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="6" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="7" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="8" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="9" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="10" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="11" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="12" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="13" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="14" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
-            <img id="15" src="img/backcard.jpg" alt="" onclick="CheckCard(this.id)">
+            <img id="0" src="img/backcard.jpg" alt="">
+            <img id="1" src="img/backcard.jpg" alt="">
+            <img id="2" src="img/backcard.jpg" alt="">
+            <img id="3" src="img/backcard.jpg" alt="">
+            <img id="4" src="img/backcard.jpg" alt="">
+            <img id="5" src="img/backcard.jpg" alt="">
+            <img id="6" src="img/backcard.jpg" alt="">
+            <img id="7" src="img/backcard.jpg" alt="">
+            <img id="8" src="img/backcard.jpg" alt="">
+            <img id="9" src="img/backcard.jpg" alt="">
+            <img id="10" src="img/backcard.jpg" alt="">
+            <img id="11" src="img/backcard.jpg" alt="">
+            <img id="12" src="img/backcard.jpg" alt="">
+            <img id="13" src="img/backcard.jpg" alt="">
+            <img id="14" src="img/backcard.jpg" alt="">
+            <img id="15" src="img/backcard.jpg" alt="">
         </div>
+
+        <h2 id="win-prompt" class="text-center m-5 text-success fw-bold" style="display: none;">YOU'VE WON!!!!</h2>
 
     </div>
 </body>
