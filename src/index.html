@@ -45,8 +45,12 @@
         <div class="text-center mt-5">
             <button id="start-btn" class="btn text-center" onclick="StartGame()">Start Game</button>
         </div>
+        
+        <!-- Prompt that is shown when user wins the game. Is hidden by default -->
+        <h2 id="win-prompt" class="text-center m-5 text-success fw-bold" style="display: none;">YOU'VE WON!!!!</h2>
 
         <!-- Div that will contain all the match card for games -->
+        <!-- Each image will have their own ID, starting 0 to 15 -->
         <div id="card-images" class="text-center mt-4">
             <img id="0" src="img/backcard.jpg" alt="">
             <img id="1" src="img/backcard.jpg" alt="">
@@ -66,7 +70,6 @@
             <img id="15" src="img/backcard.jpg" alt="">
         </div>
 
-        <h2 id="win-prompt" class="text-center m-5 text-success fw-bold" style="display: none;">YOU'VE WON!!!!</h2>
 
     </div>
 </body>
